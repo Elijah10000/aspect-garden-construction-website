@@ -166,15 +166,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-body {
-	background-color: tomato;
-}	
-  .boxOne img {
+  body {
+    "boxOne" img
 	width: 100%;
-  }
-  
-  .boxOne a {
-	  margin: 0;
   }
 }
 
