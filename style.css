@@ -1,0 +1,194 @@
+body {
+	background-color: #f60;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+	
+
+.boxOne { 
+	height: 230px;
+	width: 100%;
+	margin: 0% 0% 2% 0%;
+	position: relative;
+}
+
+
+.boxOne img {
+	margin: 1% 25% 1% 25%;
+	height: 230px;
+	width: 50%;
+}
+
+.boxOne a {
+	margin: 9.2%;
+	color: black;
+}
+
+
+.boxTwo {
+	height: 110px;
+	width: 25%;
+	margin: 0 auto;
+}
+
+.boxTwo h2 {
+	color: black;
+	text-align: center;
+	font-family: new times roman;
+	margin: 110px 0px;
+}
+
+.boxThree {
+	height: 230px;
+	width: 97%;
+	margin: 2%;
+}
+
+
+.boxFour {
+	width: 25%;
+	height: 115px;
+	margin: 0 auto;
+}
+
+.boxFour h2 {
+	color: black;
+	text-align: center;
+	font-family: new times roman;
+	margin: 4% 0%;
+}
+
+
+
+.row {
+	height: 300px;
+}
+
+
+.col-sm-4 h3 {
+	text-align: center;
+	margin-top: -5%;
+}
+
+a:hover {
+	background-color: #a9a9a9;
+}
+
+.col-sm-4 img {
+	height: 320px;
+	width: 100%;
+}	
+
+.col-sm-4 a {
+	margin-top: -1%;
+}
+
+
+.boxFive {
+	width: 25%;
+	height: 115px;
+	margin: 0 auto;
+}
+
+.boxFive h2 {
+	color: black;
+	font-family: new times roman;
+	text-align: center;
+	margin: 7% 0%;
+}
+
+.boxSix { 
+	height: 250px;
+	width: 97%;
+	margin: 2%;
+}
+
+.boxSeven {
+	width: 25%;
+	height: 115px;
+	margin: 0 auto;
+}
+
+.boxSeven h2 {
+	color: black;
+	font-family: new times roman;
+	text-align: center;
+	margin: 4% 0%;
+}
+
+.boxEight { 
+	height: 250px;
+	width: 97%;
+	margin: 2%;
+}
+
+.boxNine {
+	width: 25%;
+	height: 115px;
+	margin: 0 auto; 
+}
+
+.boxNine h2{
+	color: black;
+	font-family: new times roman;
+	text-align: center;
+	margin: 4% 0%;
+}
+
+.boxTen {
+	background-color: white;
+	height: 500px;
+	width: 100%;
+}
+
+.boxTen iframe {
+	border-radius: 1%;
+	width: 98%;
+	margin: 1%;
+}
+	
+.boxEleven {
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.boxEleven a {
+	margin: 46%;
+}
+
+
+.custom-container {
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+body {
+	background-color: tomato;
+}	
+  .boxOne img {
+	width: 100%;
+  }
+  
+  .boxOne a {
+	  margin: 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+	For mobile phones: 
+  [class*="col-sm-4"] {
+    width: 100%;
+  }
+}
+
+
+	[class*="boxSeven h2"] {
+		margin: 20px 0px;
+		color: red;
+	}	
+}
