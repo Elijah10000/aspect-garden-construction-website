@@ -1,0 +1,58 @@
+.boxOne {
+	width: 40%;
+	height: 200px;
+	margin-top: 2%;
+	margin-left: 2%;
+	float: left;	
+	border-radius: 10px;
+}
+
+
+.boxOne img {
+	margin: auto;
+	height: 200px;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.boxTwo {
+	height: 200px;
+	width: 50%;
+	float: right;
+}
+
+.boxTwo h1 {
+	font-family: new times roman;
+	margin-top: 2%;
+	margin-left: 10%;
+	border-bottom: 3px solid black;
+	display: inline-block;
+}
+
+.boxTwo h2 {
+	font-family: new times roman;
+	margin-left: 30%;
+}
+
+.boxTwo a {
+	color: black;
+	text-align: center;
+	margin: 5%;
+}
+
+.boxThree {
+	background-color: red;
+	width: 25%;
+	height: 110px;
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxThree h2 {
+	color: black;
+	text-align: center;
+	font-family: new times roman;
+	text-align: center;
+}
