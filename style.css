@@ -1,13 +1,22 @@
+#grad1 {
+	height: 100px;
+	background-color: #f9e4b7; 
+	background-image: linear-gradient(#f9e4b7, white);
+	z-index: -1;
+}
+
 * {
 	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
 }
-	
+
 
 .boxOne { 
 	height: 230px;
 	width: 100%;
 	margin: 0% 0% 2% 0%;
 	position: relative;
+	z-index: 1;
 }
 
 
@@ -15,11 +24,20 @@
 	margin: 1% 25% 1% 25%;
 	height: 230px;
 	width: 50%;
+	position: relative;
+	z-index: 1;
+}
+
+
+.boxOne nav {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
 }
 
 .boxOne a {
-	margin: 9.2%;
 	color: black;
+	padding: 0px 35px 0 0;
 }
 
 .boxTwo {

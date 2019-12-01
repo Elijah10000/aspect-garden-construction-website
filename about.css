@@ -1,8 +1,20 @@
+#grad1 {
+	height: 100px;
+	background-color: #f9e4b7; 
+	background-image: linear-gradient(#f9e4b7, white);
+	z-index: -1;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+}
+
 .boxOne {
 	width: 40%;
 	height: 200px;
 	margin-top: 2%;
-	margin-left: 2%;
+	margin-left: 4%;
 	float: left;	
 	border-radius: 10px;
 }
@@ -21,31 +33,31 @@
 	float: right;
 }
 
-.boxTwo h1 {
-	font-family: new times roman;
+.boxTwo h2 {
+	font-family: Montserrat;
 	margin-top: 2%;
-	margin-left: 10%;
+	margin-left: 20%;
 	border-bottom: 3px solid black;
 	display: inline-block;
 }
 
-.boxTwo h2 {
-	font-family: new times roman;
-	margin-left: 30%;
+.boxTwo h3 {
+	font-family: Montserrat;
+	margin-left: 38%;
 }
 
 .boxTwo a {
+	font-family: Montserrat, sans-serif;
 	color: black;
 	text-align: center;
-	margin: 5%;
+	margin: 6%;
 }
 
 .boxThree {
-	background-color: red;
 	width: 25%;
 	height: 110px;
 	position: absolute;
-    top: 60%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -53,6 +65,38 @@
 .boxThree h2 {
 	color: black;
 	text-align: center;
-	font-family: new times roman;
+	font-family: Montserrat;
 	text-align: center;
 }
+
+.boxFour {
+	height: 230px;
+	width: 97%;
+	margin: 2%;
+	top: 80%;
+	position: absolute;
+}
+
+.boxFour p {
+	font-family: Montserrat, sans-serif;
+}
+
+.row {
+	height: 200px;
+	position: absolute;
+}
+
+.col-sm-3 {
+	height: 200px;
+	width: 100%;
+}
+
+.col-sm-3 img {
+	height: 200px;
+	width: 100%;
+}
+
+.custom-container {
+	width: 100%;
+}
+
