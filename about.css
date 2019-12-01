@@ -10,13 +10,24 @@
 	font-family: Montserrat, sans-serif;
 }
 
+.box-parent {
+	overflow-x: hidden;
+	height: 100%;
+}
+
+.header-parent {
+	display: block;
+	position: relative
+}
+
 .boxOne {
 	width: 40%;
 	height: 200px;
 	margin-top: 2%;
 	margin-left: 4%;
-	float: left;	
 	border-radius: 10px;
+	position: relative;
+	display: inline-block;
 }
 
 
@@ -30,7 +41,9 @@
 .boxTwo {
 	height: 200px;
 	width: 50%;
-	float: right;
+	position: relative;
+	display: inline-block;
+	left: 10%;
 }
 
 .boxTwo h2 {
@@ -43,7 +56,8 @@
 
 .boxTwo h3 {
 	font-family: Montserrat;
-	margin-left: 38%;
+	left: 35%;
+    position: relative;
 }
 
 .boxTwo a {
@@ -56,10 +70,11 @@
 .boxThree {
 	width: 25%;
 	height: 110px;
+	margin-top: 5%;
 	position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	left: 50%;
+	transform: translate(-50%, 0%);
+	display: inline-block;
 }
 
 .boxThree h2 {
@@ -73,30 +88,15 @@
 	height: 230px;
 	width: 97%;
 	margin: 2%;
-	top: 80%;
-	position: absolute;
+	margin-top: 10%;
+	position: relative;
 }
 
 .boxFour p {
 	font-family: Montserrat, sans-serif;
 }
 
-.row {
-	height: 200px;
-	position: absolute;
-}
-
-.col-sm-3 {
-	height: 200px;
-	width: 100%;
-}
-
 .col-sm-3 img {
 	height: 200px;
-	width: 100%;
+	width: 200%;
 }
-
-.custom-container {
-	width: 100%;
-}
-
