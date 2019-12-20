@@ -1,0 +1,120 @@
+#grad1 {
+	background-color: #f9e4b7; 
+	background-image: linear-gradient(#f9e4b7, white);
+	z-index: -1;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Montserrat;
+	overflow-x: hidden;
+}
+
+.boxOne {
+	width: 15%;
+	height: 200px;
+	margin-left: 7%;
+	margin-top: 5%;
+}
+
+.boxOne img {
+	width: 85%;
+	height: 165px;
+	margin-top: 7%;
+}
+
+.boxTwo {
+	margin: auto;
+	width: 32.5%;
+	height: 300px;
+	margin-top: -20%;
+}
+
+.boxTwo img {
+	margin-left: 7%;
+}
+
+.boxTwo a {
+	color: black;
+	padding: 0px 25px 0 0;
+	margin-top: 4%;
+}
+
+.boxThree {
+	width: 15%;
+	height: 200px;
+	margin-top: -20%;
+	margin-left: 78%;
+}
+
+.boxThree img {
+	width: 85%;
+	height: 165px;
+	margin-top: 10%;
+}
+
+.boxFour {
+	height: 210px;
+	width: 65%;
+	margin: auto;
+}
+
+.boxFour p {
+	margin-top: 5%;
+}
+
+.boxFive {
+	width: 30%;
+	height: 150px;
+	margin: 0 auto; 
+}
+
+.boxFive h2 {
+	color: black;
+	text-align: center;
+	margin-top: 12%;
+}
+
+.col-sm-3 img {
+	margin-top: 10%;
+	height: 100px;
+	width: 35%;
+}
+
+.col-sm-3 h4 {
+	margin-top: 5%;
+}
+
+.col-sm-3 h5 {
+	margin-bottom: 25%;
+}
+
+.boxSix {
+	width: 25%;
+	height: 150px;
+	margin: 0 auto; 
+}
+
+.boxSix h2 {
+	color: black;
+	text-align: center;
+	margin-top: 9%;
+}
+
+.boxSeven iframe {
+	border-radius: 1%;
+	width: 100%;
+	margin: 1%;
+}
+
+.boxEight {
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.boxEight a {
+	margin: 46%;
+}
+
+

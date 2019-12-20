@@ -1,5 +1,4 @@
 #grad1 {
-	height: 100px;
 	background-color: #f9e4b7; 
 	background-image: linear-gradient(#f9e4b7, white);
 	z-index: -1;
@@ -7,7 +6,8 @@
 
 * {
 	box-sizing: border-box;
-	font-family: Montserrat, sans-serif;
+	font-family: Montserrat;
+	overflow-x: hidden;
 }
 
 .box-parent {
@@ -47,24 +47,21 @@
 }
 
 .boxTwo h2 {
-	font-family: Montserrat;
 	margin-top: 2%;
-	margin-left: 20%;
+	margin-left: 10%;
 	border-bottom: 3px solid black;
 	display: inline-block;
 }
 
 .boxTwo h3 {
-	font-family: Montserrat;
-	left: 35%;
+	left: 32%;
     position: relative;
 }
 
 .boxTwo a {
-	font-family: Montserrat, sans-serif;
 	color: black;
 	text-align: center;
-	margin: 6%;
+	margin: 4%;
 }
 
 .boxThree {
@@ -80,23 +77,65 @@
 .boxThree h2 {
 	color: black;
 	text-align: center;
-	font-family: Montserrat;
-	text-align: center;
 }
 
 .boxFour {
 	height: 230px;
 	width: 97%;
 	margin: 2%;
-	margin-top: 10%;
+	margin-top: 13%;
 	position: relative;
 }
 
 .boxFour p {
-	font-family: Montserrat, sans-serif;
+	font-family: Montserrat;
 }
 
 .col-sm-3 img {
-	height: 200px;
-	width: 200%;
+	height: 130px;
+	width: 50%;
+}
+
+.col-sm-3 h4 {
+	margin-top: 5%;
+}
+
+.boxFive {
+	width: 25%;
+	height: 110px;
+	margin-top: 10%;
+	position: absolute;
+	left: 52%;
+	transform: translate(-50%, 0%);
+	display: inline-block;
+}
+
+.boxSix img {
+	height: 400px;
+	width: 31%;
+	margin-left: 60%;
+	margin-top: 15%;
+}
+
+
+.boxSeven {
+	height: 300px;
+	width: 33%;
+	float: left;
+	margin-top: -27%;
+	margin-left: 10%;
+}
+
+.boxSeven p {
+	margin: 2%;
+}
+
+.boxEight {
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.boxEight a {
+	margin: 46%;
 }

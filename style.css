@@ -1,5 +1,4 @@
 #grad1 {
-	height: 100px;
 	background-color: #f9e4b7; 
 	background-image: linear-gradient(#f9e4b7, white);
 	z-index: -1;
@@ -11,14 +10,12 @@
 }
 
 
-.boxOne { 
-	height: 230px;
-	width: 100%;
-	margin: 0% 0% 2% 0%;
-	position: relative;
-	z-index: 1;
-}
+#div1  {animation-fill-mode: forwards;}
 
+@keyframes mymove {
+  from {top: -200px;}
+  to {top: 0px;}
+}
 
 .boxOne img {
 	margin: 1% 25% 1% 25%;
@@ -26,6 +23,8 @@
 	width: 50%;
 	position: relative;
 	z-index: 1;
+	webkit-animation: mymove 1.5s; 
+	animation: mymove 1.5s;
 }
 
 
@@ -37,20 +36,29 @@
 
 .boxOne a {
 	color: black;
-	padding: 0px 35px 0 0;
+	padding: 0px 25px 0 0;
+	margin-top: 2%;
 }
+
 
 .boxTwo {
 	height: 110px;
-	width: 25%;
+	width: 35%;
 	margin: 0 auto;
 }
 
 .boxTwo h2 {
 	color: black;
 	text-align: center;
-	font-family: new times roman;
-	margin: 110px 0px;
+	margin-top: 20%;
+	margin-left: -13%;
+}
+
+.boxTwo img {
+	height: 80px;
+	width: 16%;
+	margin-left: 69%;
+	margin-top: -18%;
 }
 
 .boxThree {
@@ -61,19 +69,24 @@
 
 
 .boxFour {
-	width: 25%;
-	height: 115px;
+	width: 35%;
+	height: 150px;
 	margin: 0 auto;
 }
 
 .boxFour h2 {
 	color: black;
 	text-align: center;
-	font-family: new times roman;
-	margin: 4% 0%;
+	margin-top: 10%;
+	margin-left: -19%;
 }
 
-
+.boxFour img {
+	height: 80px;
+	width: 16%;
+	margin-left: 70%;
+	margin-top: -15%;
+}
 
 .row {
 	height: 300px;
@@ -85,8 +98,9 @@
 }
 
 .col-sm-4 img {
+	margin: 2% 2%;
 	height: 300px;
-	width: 100%;
+	width: 95%;
 }	
 
 .col-sm-4 a {
@@ -94,21 +108,24 @@
 	color: black;
 }
 
-
-
 .boxFive {
-	width: 25%;
-	height: 130px;
-	margin: 0 auto;
+	width: 26%;
+	height: 110px;
+	margin: auto;
 }
-
-
 
 .boxFive h2 {
 	color: black;
-	font-family: new times roman;
 	text-align: center;
-	margin: 30% 0%;
+	margin-top: 40%;
+	margin-left: -15%;
+}
+
+.boxFive img {
+	height: 75px;
+	width: 18%;
+	margin-left: 82%;
+	margin-top: -20%;
 }
 
 .boxSix { 
@@ -118,16 +135,23 @@
 }
 
 .boxSeven {
-	width: 25%;
-	height: 130px;
+	width: 35%;
+	height: 110px;
 	margin: 0 auto;
 }
 
 .boxSeven h2 {
 	color: black;
-	font-family: new times roman;
 	text-align: center;
-	margin: 30% 0% 0% 0%;
+	margin-top: 30%;
+	margin-left: -26%;
+}
+
+.boxSeven img {
+	height: 75px;
+	width: 18%;
+	margin-left: 73%;
+	margin-top: -20%;
 }
 
 .boxEight { 
@@ -135,39 +159,14 @@
 	width: 97%;
 	margin: 2%;
 }
-
-.boxNine {
-	width: 25%;
-	height: 150px;
-	margin: 0 auto; 
-}
-
-.boxNine h2{
-	color: black;
-	font-family: new times roman;
-	text-align: center;
-	margin-top: 15% 0%;
-}
-
-.boxTen {
-	background-color: white;
-	height: 500px;
-	width: 100%;
-}
-
-.boxTen iframe {
-	border-radius: 1%;
-	width: 98%;
-	margin: 1%;
-}
 	
-.boxEleven {
-	height: 100px;
+.boxNine {
+	height: 50px;
 	width: 100%;
 	margin: 0 auto;
 }
 
-.boxEleven a {
+.boxNine a {
 	margin: 46%;
 }
 
