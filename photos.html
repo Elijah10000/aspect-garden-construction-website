@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <html>
@@ -13,5 +14,27 @@
 			<div class="boxOne">
 				<h1> Photo Gallery </h1>
 			</div>
+			<div class="image-container">
+				<div class="image">
+
+				</div>
+			</div>
+
+			<script>
+
+			let images = [];
+			for (let i = 1; i <= 16; i++) {
+				imageSrc = i + '.png';
+				images.push(imageSrc);
+			}
+
+			images.forEach((image) => {
+            	let img = document.createElement('img'); 
+            	img.src = `Gallery/${image}`;
+            	document.querySelector('.image-container').appendChild(img);
+            	img.classList.add("image-child");
+        	});
+
+			</script>
 	</body>
 </html>
