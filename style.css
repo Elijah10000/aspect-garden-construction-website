@@ -1,4 +1,8 @@
-#grad1 {
+body {
+	overflow-x: hidden;
+}
+
+.grad1 {
 	background-color: #f9e4b7; 
 	background-image: linear-gradient(#f9e4b7, white);
 	z-index: -1;
@@ -47,6 +51,11 @@
 	margin: 0 auto;
 }
 
+.dark-mode {
+  color: white;
+  background-color:#929292;
+}
+
 .boxTwo h2 {
 	color: black;
 	text-align: center;
@@ -62,7 +71,7 @@
 }
 
 .boxThree {
-	height: 230px;
+	height: 220px;
 	width: 97%;
 	margin: 2%;
 }
@@ -129,7 +138,7 @@
 }
 
 .boxSix { 
-	height: 230px;
+	height: 200px;
 	width: 97%;
 	margin: 2%;
 }

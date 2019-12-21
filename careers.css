@@ -1,4 +1,4 @@
-#grad1 {
+.grad1 {
 	background-color: #f9e4b7; 
 	background-image: linear-gradient(#f9e4b7, white);
 	z-index: -1;
@@ -6,7 +6,11 @@
 
 * {
 	box-sizing: border-box;
-	font-family: Montserrat;
+}
+
+.dark-mode {
+  color: white;
+  background-color:#929292;
 }
 
 .boxOne {
@@ -20,24 +24,29 @@
 	height: 150px;
 	width: 40%;
 	border-radius: 1.5;
-	margin-left: 2%;
+	margin-left: 4%;
 	margin-top: 2%;
 }
 
 .boxOne h1 {
 	color: black;
 	position: absolute;
-	margin-left: 70%;
-	margin-top: 3%;
+	margin-left: 65%;
+	margin-top: 2%;
 	z-index: 1;
-	font-family: new times roman;
+	font-family: great vibes;
+	font-size: 84px;
 }
 
 .boxOne nav {
+	margin-left: 58%;
+	margin-top: -5%;
+	padding: 10px;
+}
+
+.boxOne nav a {
 	color: black;
-	padding: 7px;
-	margin-left: 61.5%;
-	margin-top: -6%;
+	padding: 10px;
 }
 
 .col-sm-4 h4 {
@@ -72,11 +81,10 @@
 }
 
 .boxThree {
-	height: 230px;
+	height: 210px;
 	width: 97%;
 	margin-top: 10%;
 	margin-left: 2%;
-	color: black;
 }
 
 .boxFour h4 {

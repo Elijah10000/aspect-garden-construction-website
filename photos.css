@@ -1,4 +1,4 @@
-#grad1 {
+.grad1 {
 	background-color: #f9e4b7; 
 	background-image: linear-gradient(#f9e4b7, white);
 	z-index: -1;
@@ -6,7 +6,11 @@
 
 * {
 	box-sizing: border-box;
-	font-family: Great Vibes;
+}
+
+.dark-mode {
+  color: white;
+  background-color:#929292;
 }
 
 .boxOne {
@@ -19,13 +23,35 @@
 	margin: auto;
 	padding: 5%;
 	font-size: 84px;
+	font-family: Great Vibes;
+}
+
+nav {
+	margin-left: 34%;
+	margin-top: 2%;
+	padding: 10px;
+}
+	
+nav a {
+	color: black;
+	font-family: montserrat; 
+	padding: 10px;
 }
 
 .image-child {
 	width: 32%;
 	heigth: 120px;
-	padding-top: 50px;
+	padding-top: 90px;
 	padding-left: 43px;
 	padding-right: 10px;
+}
+
+.boxTwo {
+	height: 40px;
+	width: 100%;
+}
+
+.boxTwo a {
+	margin-left: 46%;
 }
 	

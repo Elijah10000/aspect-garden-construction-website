@@ -1,4 +1,4 @@
-#grad1 {
+.grad1 {
 	background-color: #f9e4b7; 
 	background-image: linear-gradient(#f9e4b7, white);
 	z-index: -1;
@@ -8,6 +8,11 @@
 	box-sizing: border-box;
 	font-family: Montserrat;
 	overflow-x: hidden;
+}
+
+.dark-mode {
+  color: white;
+  background-color:#929292;
 }
 
 .box-parent {
@@ -87,7 +92,7 @@
 	position: relative;
 }
 
-.boxFour p {
+.boxFour h6 {
 	font-family: Montserrat;
 }
 
@@ -111,10 +116,10 @@
 }
 
 .boxSix img {
-	height: 400px;
-	width: 31%;
+	height: 375px;
+	width: 30%;
 	margin-left: 60%;
-	margin-top: 15%;
+	margin-top: 17%;
 }
 
 
@@ -127,7 +132,8 @@
 }
 
 .boxSeven p {
-	margin: 2%;
+	margin: 3%;
+	margin-top: 6%;
 }
 
 .boxEight {

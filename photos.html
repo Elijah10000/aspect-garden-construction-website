@@ -8,20 +8,31 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="photos.css">
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div id="grad1">
+		<div class="grad1">
+		<div class="box-parent"></div>
 			<div class="boxOne">
 				<h1> Photo Gallery </h1>
+				
+				
+			
 			</div>
+			
+			<nav>
+				<a href="index.html"> Home </a>
+				<a href="contact.html"> Contact Us </a>
+				<a href="about.html"> About Us </a>
+				<a href="careers.html"> Careers </a>
+			</nav>
+			
 			<div class="image-container">
 				<div class="image">
-
 				</div>
 			</div>
 
 			<script>
-
 			let images = [];
 			for (let i = 1; i <= 15; i++) {
 				imageSrc = i + '.png';
@@ -36,5 +47,10 @@
         	});
 
 			</script>
+			
+			<div class="boxTwo">
+			<a href="#top"> Back to Top </a>
+		</div>
+		<script src="darkMode.js"></script>
 	</body>
 </html>
