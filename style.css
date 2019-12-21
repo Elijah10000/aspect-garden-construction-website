@@ -159,8 +159,8 @@ body {
 .boxSeven img {
 	height: 75px;
 	width: 18%;
-	margin-left: 73%;
 	margin-top: -20%;
+	margin-left: 73%;
 }
 
 .boxEight { 
@@ -184,24 +184,80 @@ body {
 	width: 100%;
 }
 
-@media only screen and (max-width: 200px) {
-  [class*="col-"] {
-  float: left;
-  padding: 15px;
+@media screen and (max-width: 800px) and (min-width: 500px) {
+	.boxTwo h2 {
+		width: 50%;
+	}
+
+	.boxTwo img {
+		width: 50%;
+		margin-top: -60%;
+	}
+
+	.boxFour {
+		margin-top: 70%;
+		width: 100%;
+	}
+
+	.custom-container h3 {
+		margin-top: 20%;
+	}
+
+	.boxFive {
+		margin-top: 250%;
+		width: 100%;
+	}
+
+	.boxSeven{
+		margin-top: 85%;
+		width: 100%;
+	}
+
+	.boxNine {
+		margin-top: 80%;
+	}
+
+	.boxNine a {
+		margin: 0%;
+		text-align: center;
+	}
 }
 
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+	.boxTwo h2 {
+		width: 50%;
+	}
 
-@media only screen and (min-width: 200px) {
-	For mobile phones: 
-  [class*="col-sm-4"] img {
-    width: 100%;
-	height:100px;
-  }
-}
+	.boxTwo img {
+		width: 50%;
+		margin-top: -40%;
+	}
 
+	.boxFour {
+		margin-top: 30%;
+		width: 100%;
+	}
 
-	[class*="boxSeven h2"] {
-		margin: 20px 0px;
-		color: red;
-	}	
+	.custom-container h3 {
+		margin-top: 20%;
+	}
+
+	.boxFive {
+		width: 100%;
+	}
+
+	.boxSeven{
+		margin-top: 25%;
+		width: 100%;
+	}
+
+	.boxNine {
+		margin-top: 20%;
+	}
+
+	.boxNine a {
+		margin: 0%;
+		text-align: center;
+	}
+
 }
