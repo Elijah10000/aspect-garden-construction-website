@@ -38,13 +38,6 @@ nav a {
 	padding: 10px;
 }
 
-.image-child {
-	width: 32%;
-	heigth: 120px;
-	padding-top: 90px;
-	padding-left: 43px;
-	padding-right: 10px;
-}
 
 .boxTwo {
 	height: 40px;
@@ -55,3 +48,40 @@ nav a {
 	margin-left: 46%;
 }
 	
+	
+.image-child {
+	width: 32%;
+	heigth: 120px;
+	padding-top: 50px;
+	padding-left: 43px;
+	padding-right: 10px;
+}
+	
+.lightbox {
+    background-color: grey;
+	display: none;
+    height: 500px;
+	margin: 0 10%;
+	position: relative;
+}
+
+.lightbox .lightbox-image {
+    left: 50%;
+	position: absolute;
+    transform: translate(-50%, 50%);
+}
+
+.right-arrow {
+	right: 6%;
+}
+
+.left-arrow {
+    left: 6%;
+}
+
+.right-arrow,
+.left-arrow {
+	position: absolute;
+	top: 40%;
+    width: 100px;
+}

@@ -27,24 +27,95 @@
 				<a href="careers.html"> Careers </a>
 			</nav>
 			
-			<div class="image-container">
-				<div class="image">
-				</div>
+			<div class="lightbox">
+				<img class="lightbox-image">
+				<div class="right-arrow"><img src="right-arrow.svg" alt=""></div>
+				<div class="left-arrow"><img src="left-arrow.svg" alt=""></div>
 			</div>
+			<div class="image-container"></div>
 
 			<script>
 			let images = [];
-			for (let i = 1; i <= 15; i++) {
-				imageSrc = i + '.png';
-				images.push(imageSrc);
+		for (let i = 1; i <= 15; i++) {
+			imageSrc = i + '.png';
+			images.push(imageSrc);
+		}
+
+		images.forEach((image) => {
+			let img = document.createElement('img'); 
+			img.src = `Gallery/${image}`;
+			document.querySelector('.image-container').appendChild(img);
+			img.classList.add("image-child");
+		});
+
+		//Lightbox
+		let lightboxImages = document.querySelectorAll('.image-child');
+
+		function lightbox() {
+			// Original clicked image
+			let currentImage = this;
+
+			// Select dom elements
+			const imageContainer = document.querySelector('.image-container');
+			const lightboxContainer = document.querySelector('.lightbox');
+			const lightboxImg = document.querySelector('.lightbox-image');
+			const rightArrow = document.querySelector('.right-arrow');
+			const leftArrow = document.querySelector('.left-arrow');
+		
+			//Fade out images
+			imageContainer.style.opacity = "0.6";
+
+			//Reveal Lightbox
+			lightboxContainer.style.display = "block";
+
+			//Set clicked image as source in lightbox
+			lightboxImg.src = currentImage.src;
+			lightboxContainer.appendChild(lightboxImg);
+
+			// Select next image
+			function nextImage(){
+				currentImage = currentImage.nextSibling;
+				if(currentImage == null) {
+					currentImage = imageContainer.firstChild;
+				}
+				lightboxImg.src = currentImage.src;
 			}
 
-			images.forEach((image) => {
-            	let img = document.createElement('img'); 
-            	img.src = `Gallery/${image}`;
-            	document.querySelector('.image-container').appendChild(img);
-            	img.classList.add("image-child");
-        	});
+			// Select Previous Image
+			function previousImage(){
+				currentImage = currentImage.previousSibling;
+				if(currentImage == null) {
+					currentImage = imageContainer.lastChild;
+				}
+				lightboxImg.src = currentImage.src;
+			}
+
+			leftArrow.addEventListener('click', previousImage);
+			rightArrow.addEventListener('click', nextImage);
+
+			//Key controls
+			window.addEventListener("keydown", function(event) {
+			
+				console.log(event);
+				if(event.keyCode == 27) {
+					//Fade out images
+					imageContainer.style.opacity = '1';
+					//Reveal Lightbox
+					lightboxContainer.style.display = "none";
+				}
+
+				if(event.keyCode == 37) {
+					previousImage();
+				}
+				
+				if(event.keyCode == 39){
+					nextImage();
+				}
+			});
+		};
+
+		lightboxImages.forEach(image => image.addEventListener('click', lightbox));
+
 
 			</script>
 			
